@@ -1,0 +1,23 @@
+body {
+  margin: 0;
+}
+.block {
+  display: flex;
+  flex-wrap: wrap;
+  align-content: flex-start;
+  width: 600px;
+  height: 650px;
+  border: 2px solid brown;
+  margin: auto;
+}
+.photo {
+  display: block;
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.button {
+  padding: 10px;
+  margin-left: 400px;
+}
